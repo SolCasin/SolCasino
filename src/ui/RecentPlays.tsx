@@ -62,7 +62,7 @@ function RecentPlay({ time, signature, result, isSelf }: RecentPlayProps) {
         </span>
       </div>
       <span>
-        <TimeDiff time={time} /> <Icon.ExternalLink />
+        <TimeDiff time={time} />
       </span>
     </a>
   )
