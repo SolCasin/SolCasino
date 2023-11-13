@@ -9,20 +9,20 @@ export function Home() {
     <div className={styles.banner}>
       <Section>
         <h2>
-          What is this?
+          Welcome to Solar Casino
         </h2>
         <p style={{ wordWrap: 'break-word' }}>
-          An open source, decentralized casino built on Gamba. Copy this platform with your own branding and start earning fees on every bet.
+          A decentralized casino built on Solana. Get your share of SolarCasino revenues by holding $SLR.
         </p>
         <div style={{ display: 'flex', gap: '10px' }}>
           <Button
             as="a"
             color="white"
-            href="https://gamba.so"
+            href="https://raydium.io/swap"
             target="_blank"
             icon={<Icon.ExternalLink />}
           >
-            Learn more
+            BUY $SLR
           </Button>
         </div>
       </Section>
